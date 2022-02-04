@@ -1,3 +1,7 @@
+# build with musl toolchain
+Dependencies:
+* musl
+$ apt install musl-*
 # rtl8814au
 Drivers for the rtl8814au chipset wireless adapters
 

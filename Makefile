@@ -1,3 +1,4 @@
+CC:="musl-gcc"
 EXTRA_CFLAGS += $(USER_EXTRA_CFLAGS) -fno-pie
 EXTRA_CFLAGS += -O1
 #EXTRA_CFLAGS += -O3
@@ -21,6 +22,7 @@ EXTRA_CFLAGS += -Wno-date-time
 
 EXTRA_CFLAGS += -I$(src)/include
 EXTRA_LDFLAGS += --strip-debug
+EXTRA_LDFLAGS += -static
 
 CONFIG_AUTOCFG_CP = n
 
