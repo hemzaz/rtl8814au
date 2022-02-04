@@ -10,3 +10,5 @@ modules.order
 *.mod
 *.o.d
 *.c.orig 
+.vscode
+*.vscode
